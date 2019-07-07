@@ -1,0 +1,11 @@
+W celu uruchomienia containera należy do terminala wpisać komendę: docker run --rm -p 8080:8080 bk99/credit_app 
+
+i w pasku adresowym należy wpisać:
+http://localhost:8080/
+
+Pozwoli to wejść na stronę główną aplikacji. Na stronie głównej mamy dwie możliwości ruchu. 
+
+Pierwsza z nich to: „Złożenie informacji o kredycie” - po kliknięciu tego przycisku następuje przekierowanie do formularza dodającego następny kredyt do bazy danych. Po wypełnieniu wszystkich informacji klikamy przycisk „Zapisz”, który przekierowuje do strony pokazującej ID kredytu. Z każdej strony można wrócić do do strony głównej za pomocą przycisku „Wróć do strony głównej”. 
+
+Druga z nich to „Informacje o kredytach” - po kliknięciu tego przycisku następuje przekierowanie do strony z listą kredytów (dane są pobierane z pliku „data.sql” a całość jest obsługiwana za pomocą  bazy hiberante)
+
