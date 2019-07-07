@@ -1,15 +1,12 @@
-package com.example.credit_application.SpringBootCredit;
+package com.example.credit_application.credit;
 
-import com.example.credit_application.SpringBootCustomer.Customer;
-import com.example.credit_application.SpringBootProduct.Product;
-import com.example.credit_application.SpringBootCustomer.CustomerRepository;
-import com.example.credit_application.SpringBootProduct.ProductRepository;
+import com.example.credit_application.customer.Customer;
+import com.example.credit_application.product.Product;
+import com.example.credit_application.customer.CustomerRepository;
+import com.example.credit_application.product.ProductRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
 

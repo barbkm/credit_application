@@ -1,4 +1,4 @@
-package com.example.credit_application.SpringBootCredit;
+package com.example.credit_application.credit;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

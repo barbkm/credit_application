@@ -12,24 +12,25 @@
 </head>
 <body>
 
+<h1>Wypełnij poniższe pola</h1>
+
+
     <div class="container">
         <div class="row">
-            <div class="col">
-            </div>
             <div class="col">
                 <!--<img th:src="@{http://cultbox.co.uk/wp-content/uploads/2018/09/Screen-Shot-2018-09-05-at-06.44.54-350x200.png}">-->
                 <form class="needs-validation" novalidate method="post" th:action="@{/create}">
 
-                    <div class="form-group row">
+                    <div class="form-group col-md-6">
                         <label for="firstName">Imię  <a style=color:red> * </a></label>
                         <input type="String" class="form-control" id="firstName" name="firstName" placeholder="Imię">
                     </div>
 
-                    <div class="form-group row">
+                    <div class="form-group col-md-6">
                         <label for="lastName">Nazwisko <a style=color:red> * </a></label>
                         <input type="String" class="form-control" id="lastName" name="lastName" placeholder="Nazwisko">
                     </div>
-                    <div class="form-group row">
+                    <div class="form-group col-md-6">
                         <label for="pesel">Pesel <a style=color:red> * </a></label>
                         <input type="String" class="form-control" id="pesel", name="pesel" placeholder="pesel" required>
                     </div>
@@ -39,7 +40,7 @@
                             <!--<input type="String" class="form-control" id="productName" name="productName" placeholder="Nazwa Produktu" required>-->
                         <!--</div>-->
 
-                        <div class="form-group col-md-4">
+                        <div class="form-group col-md-6">
                             <label for="productName">Nazwa produktu</label>
                             <select id="productName" name = "productName" class="form-control">
                                 <option selected>kredyt gotówkowy</option>
@@ -49,15 +50,22 @@
                             </select>
                         </div>
 
-                        <div class="form-group row">
+                        <div class="form-group col-md-6">
                             <label for="productVelue">Wartość produktu <a style=color:red> * </a></label>
                             <input type=number class="form-control" name="productVelue" id="productVelue" placeholder="Wartość produktu"  required>
                         </div>
 
-                        <div class="form-group row">
-                            <label for="creditName">Nazwa kredytu <a style=color:red> * </a></label>
-                            <input type="String" class="form-control" id="creditName" name="creditName" placeholder="Nazwa kredytu" required>
+                        <div class="form-group col-md-6">
+                            <label for="creditName">Nazwa kredytu</label>
+                            <select id="creditName" name = "creditName" class="form-control">
+                                <option selected>Dobry</option>
+                                <option>Znakomity</option>
+                                <option>Tani</option>
+                                <option>Dla rodziny</option>
+                                <option>Dla studenta</option>
+                            </select>
                         </div>
+
                     </fieldset>
                     <div class="form-group row">
                         <button class="btn btn-primary" type="submit">Zapisz</button>
@@ -67,6 +75,7 @@
 
         </div>
     </div>
+</div>
 
 
 

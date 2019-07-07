@@ -1,4 +1,4 @@
-package com.example.credit_application.SpringBootProduct;
+package com.example.credit_application.product;
 
 
 import javax.persistence.Entity;

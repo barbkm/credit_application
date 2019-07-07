@@ -1,7 +1,6 @@
-package com.example.credit_application.SpringBootCredit;
+package com.example.credit_application.credit;
 
 
-import com.example.credit_application.SpringBootCredit.Credit;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

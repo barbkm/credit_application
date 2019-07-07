@@ -1,8 +1,6 @@
-package com.example.credit_application.SpringBootCustomer;
+package com.example.credit_application.customer;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity

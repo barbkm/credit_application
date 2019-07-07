@@ -1,8 +1,7 @@
-package com.example.credit_application.SpringBootCredit;
+package com.example.credit_application.credit;
 
-import com.example.credit_application.SpringBootCredit.Credit;
-import com.example.credit_application.SpringBootCustomer.Customer;
-import com.example.credit_application.SpringBootProduct.Product;
+import com.example.credit_application.customer.Customer;
+import com.example.credit_application.product.Product;
 
 public class CreditInfo
 {
